@@ -118,8 +118,9 @@ function DemoCtrl($scope, $routeParams, $location, ResearchPaperWebService) {
         $scope.searchResults = {};
     }
 
+
     $scope.getResultSize = function(){
-        return Object.keys($scope.searchResults).length;
+        return Object.values($scope.searchResults).length;
     }
 
     $scope.getResultList = function(){
