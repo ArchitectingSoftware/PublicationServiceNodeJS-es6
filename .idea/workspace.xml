@@ -2,138 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95db75fd-48f2-4d42-a650-fcf693816fb3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/BrianImagePic300.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/BrianInfoPic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/COBOLRocks.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pubs/DefensePres.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pubs/DefensePres.ppt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/DragonHead.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pubs/JSC07.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pubs/MitchellPhD.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pubs/MitchellPhD2.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/SERG.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/SoftwareDesign.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/SoftwareDesign.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pubs/TSE-0035-0304.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pics/personal/tank/Tank1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pics/personal/tank/Tank11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pics/personal/tank/Tank12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pics/personal/tank/Tank5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pics/personal/tank/Tank6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pics/personal/tank/Tank9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/TankFace.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pics/personal/tank/TankPF1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pics/personal/tank/TankPF2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ico/apple-touch-icon-114-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ico/apple-touch-icon-144-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ico/apple-touch-icon-57-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ico/apple-touch-icon-72-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/cs281.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/cs282.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/cs451.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/cs451.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/cs680.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/cs720.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/cs721.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ico/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pubs/gecco02.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pubs/gecco02Talk.ppt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pubs/gecco03.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pubs/gecco04.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pubs/icsm01.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pubs/icsm01pres.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pubs/icsm01pres.ppt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pubs/icsm03.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pubs/icsm03Talk.ppt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pubs/icsm99.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pubs/ieesw.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pubs/iwpc98.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/mitchell.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/oop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/personal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/researchT.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pubs/seke02.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pubs/step99.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/tMQ.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/tMQ.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/teachLogo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/teachlogo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/turboMQ.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/turboMQ.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pubs/wcre01.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pubs/wicsa01pres.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pubs/wicsa01pres.ppt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/pubs/wicsa2001.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/angular-1.2rc1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/angular-animate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/angular-loader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/angular-resource.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/angular-route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/angular-sanitize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/angular-strap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/application.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/customizer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/partials/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/directives.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/errors.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/filesaver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/filters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/font-awesome-ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/font-awesome-ie7.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/holder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/html5shiv-printshiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/jquery-1.10.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/jquery-1.10.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/jquery-1.10.2.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/jszip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/jumbotron.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/less.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/partials/main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/paypal-button-minicart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/paypal-button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/partials/personal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jsonDBs/pubs copy.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jsonDBs/pubs.full.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jsonDBs/pubs.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jsonDBs/pubsDB.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/raw-files.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/respond.proxy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/services.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/sugar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/partials/personal/tank.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/uglify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/ui-bootstrap-0.5.0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/ui-bootstrap-0.5.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/ui-bootstrap-tpls-0.5.0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/ui-bootstrap-tpls-0.5.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/underscore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/version.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/PaperService.js" afterPath="$PROJECT_DIR$/services/PaperService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PublicationServiceNodeJS.iws" />
@@ -463,6 +331,11 @@
       <created>1383609278538</created>
       <updated>1383609278538</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update with AngularJS client">
+      <created>1384273039661</created>
+      <updated>1384273039661</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -512,10 +385,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Update with AngularJS client" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update with AngularJS client" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
