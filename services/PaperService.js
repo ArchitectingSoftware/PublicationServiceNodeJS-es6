@@ -23,9 +23,11 @@ module.exports = function(app){
     });
     app.get('/publications/:id', function(req, res) {
 
-        var ErrorMsg= {id:req.params.id,
-            msg:"the paper with this ID was not found"
-            };
+        var ErrorMsg= { error:{
+                id:400,
+                msg:"the paper with id "+ req.params.id +" was not found"
+            }
+        };
         var resObject = {};
 
         if(req.params.id >= 1 && req.params.id <= pList.db.total_count)

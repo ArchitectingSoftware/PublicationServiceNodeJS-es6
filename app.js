@@ -28,6 +28,8 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
+app.use(express.static(__dirname+'/public'));
+
 //import visibility to all of the services
 var services = require('./services')(app);
 

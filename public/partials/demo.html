@@ -1,0 +1,106 @@
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <div class="container">
+            <p class="text-center">The Demo Goes Here</p>
+            <!-- <p class="text-center"><img class="img-responsive center-image" alt="Responsive image" src="img/teachLogo.png"/></p> -->
+        </div>
+    </div>
+
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+          <h2>This is a very simple demo</h2>
+          <p>Please search for all publications or a particular publication by its identifier below:</p>
+          <div class="col-lg-2">
+              <button class="btn btn-default" ng-click="getAllPubs()">Get All Pubs</button>
+          </div>
+          <div class="col-lg-4">
+              <div class="input-group">
+                  <span class="input-group-addon">Id:</span>
+                  <input type="number" class="form-control" name="paperId" ng-model="paperId"/>
+                  <span class="input-group-btn">
+                      <button class="btn btn-default" ng-click="getAPub(paperId)">Get Pub</button>
+                  </span>
+              </div>
+          </div>
+          <div class="col-lg-2">
+              <button class="btn btn-default" ng-click="clearPubResults()">Clear Search Results</button>
+          </div>
+          <div class="col-lg-4"></div>
+      </div>
+
+        <!-- Results go here -->
+        <div class="row">
+            <h2>Results</h2>
+            <div class="col-lg-12">
+                <div ng-repeat="pub in getResultList()">
+                    <span ng-if="isErrorObject(pub)">
+                        <blockquote>
+                        <div class="alert-danger">
+                            <div class="row">
+                                <div class="col-lg-2">Error Code:</div>
+                                <div class="col-lg-10"> {{pub['error'].id}}</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-2">Message:</div>
+                                <div class="col-lg-10"> {{pub['error'].msg}}</div>
+                            </div>
+                        </div>
+                        </blockquote>
+                    </span>
+                    <span ng-if="!isErrorObject(pub) && pub.id != null">
+                        <blockquote>
+                        <div class="alert-success">
+                            <div class="row">
+                                <div class="col-lg-2">Id:</div>
+                                <div class="col-lg-10"> {{pub.id}}</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-2">Title:</div>
+                                <div class="col-lg-10"> {{pub.title}}</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-2">Cite:</div>
+                                <div class="col-lg-10"> {{pub.cite}}</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-2">Link:</div>
+                                <div class="col-lg-10"> {{pub.link}}</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-2">Abstract:</div>
+                                <div class="col-lg-10"> {{pub.abstract}}</div>
+                            </div>
+                        </div>
+                        </blockquote>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Results go here -->
+        <div class="row">
+            <h2>DEBUG</h2>
+            <div class="col-lg-12">
+                <div ng-repeat="pub in getResultList()">
+                    <p>{{pub}}</p>
+                </div>
+            </div>
+        </div>
+
+      </div>
+
+
+
+      <hr>
+
+      <footer>
+        <p>&copy; Brian Mitchell 2013</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+
