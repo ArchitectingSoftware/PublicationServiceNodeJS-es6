@@ -32,56 +32,65 @@
       </div>
 
         <!-- Results go here -->
-        <div class="row" ng-if="getResultSize() > 0">
-            <h2>Results</h2>
-            <div class="col-lg-12">
-                <div ng-repeat="pub in getResultList()">
-                    <span ng-if="isErrorObject(pub)">
-                        <blockquote>
-                        <div class="alert-danger">
-                            <div class="row">
-                                <div class="col-lg-2">Error Code:</div>
-                                <div class="col-lg-10"> {{pub['error'].id}}</div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-2">Message:</div>
-                                <div class="col-lg-10"> {{pub['error'].msg}}</div>
-                            </div>
+
+        <span ng-if="isErrorObject()">
+            <div class="row">
+                <h2>ERROR</h2>
+                <blockquote>
+                    <div class="alert-danger">
+                        <div class="row">
+                            <div class="col-lg-2">Error Code:</div>
+                            <div class="col-lg-10"> {{errorObject.metadata.statusCode}}</div>
                         </div>
-                        </blockquote>
-                    </span>
-                    <span ng-if="!isErrorObject(pub) && pub.id != null">
-                        <blockquote>
-                        <div class="alert-success">
-                            <div class="row">
-                                <div class="col-lg-2">Id:</div>
-                                <div class="col-lg-10"> {{pub.id}}</div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-2">Title:</div>
-                                <div class="col-lg-10"> {{pub.title}}</div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-2">Cite:</div>
-                                <div class="col-lg-10"> {{pub.cite}}</div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-2">Link:</div>
-                                <div class="col-lg-10"> {{pub.link}}</div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-2">Abstract:</div>
-                                <div class="col-lg-10"> {{pub.abstract}}</div>
-                            </div>
+                        <div class="row">
+                            <div class="col-lg-2">Message:</div>
+                            <div class="col-lg-10"> {{errorObject.metadata.message}}</div>
                         </div>
-                        </blockquote>
-                    </span>
+                    </div>
+                </blockquote>
+            </div>
+        </span>
+
+
+        <span ng-if="!isErrorObject() && getResultSize() > 0">
+            <div class="row">
+                <h2>Results</h2>
+                <div class="col-lg-12">
+                    <div ng-repeat="pub in getResultList()">
+                        <span ng-if="pub.id != null">
+                            <blockquote>
+                            <div class="alert-success">
+                                <div class="row">
+                                    <div class="col-lg-2">Id:</div>
+                                    <div class="col-lg-10"> {{pub.id}}</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-2">Title:</div>
+                                    <div class="col-lg-10"> {{pub.title}}</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-2">Cite:</div>
+                                    <div class="col-lg-10"> {{pub.cite}}</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-2">Link:</div>
+                                    <div class="col-lg-10"> {{pub.link}}</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-2">Abstract:</div>
+                                    <div class="col-lg-10"> {{pub.abstract}}</div>
+                                </div>
+                            </div>
+                            </blockquote>
+                        </span>
+                    </div>
                 </div>
             </div>
-        </div>
+        </span>
 
 
-        <!-- Results go here -->
+        <!-- Turn on for debugging  go here -->
+        <!--
         <div ng-if="getResultSize() > 0" class="row">
             <h2>DEBUG</h2>
             <div class="col-lg-12">
@@ -90,6 +99,7 @@
                 </div>
             </div>
         </div>
+        -->
 
 
       </div>

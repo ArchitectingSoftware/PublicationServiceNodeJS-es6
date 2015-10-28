@@ -2,12 +2,8 @@
 
 /* Controllers */
 
-
-
-
 // Parent Contoller - All controllers inherit from this one
-function MainAppCtrl($scope, $location, GlobalNoticesService)
-{
+function MainAppCtrl($scope, $location, GlobalNoticesService) {
 
     //console.log('Main App Controller Created')
 
@@ -19,51 +15,44 @@ function MainAppCtrl($scope, $location, GlobalNoticesService)
 
     $scope.isOnNavPath = function (page) {
         var currentRoute = $location.path().substring(1) || 'home';
-        var rst = (page === currentRoute.substring(0,page.length) ? true : false);
+        var rst = (page === currentRoute.substring(0, page.length) ? true : false);
         return rst;
     };
 
-    $scope.shouldShowAlert = function()
-    {
+    $scope.shouldShowAlert = function () {
         return GlobalNoticesService.areNoticesOn();
     };
 
-    $scope.getNoticeTitle = function()
-    {
+    $scope.getNoticeTitle = function () {
         return GlobalNoticesService.getNoticeTitle();
     };
 
-    $scope.getNoticeText = function()
-    {
+    $scope.getNoticeText = function () {
         return GlobalNoticesService.getNoticeText();
     };
 
-    $scope.getNoticeUntilText = function()
-    {
+    $scope.getNoticeUntilText = function () {
         return GlobalNoticesService.getNoticeUntilText();
     };
 }
 
 
 function MainPageCtrl($scope, $location) {
-  $scope.isHomeActive = "active";
-  $scope.isResearchActive="";
-  $scope.phones = 'foo';
-  $scope.orderProp = 'age';
+    $scope.isHomeActive = "active";
+    $scope.isResearchActive = "";
+    $scope.phones = 'foo';
+    $scope.orderProp = 'age';
 
     //console.log('Main Page Controller Created')
 
-  $scope.getPaperList = function(){
+    $scope.getPaperList = function () {
         return paperList;
-  };
+    };
 
-  $scope.navMgrClass = function(page)
-  {
-    navClass(page,$location)
-  };
+    $scope.navMgrClass = function (page) {
+        navClass(page, $location)
+    };
 }
-
-
 
 
 function PersonalCtrl($scope, $routeParams, $location) {
@@ -74,70 +63,56 @@ function PersonalCtrl($scope, $routeParams, $location) {
 
 function DemoCtrl($scope, $routeParams, $location, ResearchPaperWebService) {
 
-
-  $scope.searchResults = {};
-  $scope.paperId = 1;
-  $scope.isError = false;
-
-
-  $scope.getAllPubs = function(){
-    var myPubsList = ResearchPaperWebService.getAllPubs().query(
-          {}, //args
-          function(data){
-              //additional success processing here
-          },
-          function(error)
-          {
-              //error handling here
-          }
-      );
-      $scope.searchResults = myPubsList;
-  };
+    $scope.searchResults = null;
+    $scope.errorObject = null;
+    $scope.paperId = 1;
+    $scope.isError = false;
 
 
-    $scope.getAPub = function(idVal){
-        console.log("here")
-        var myPubsList = ResearchPaperWebService.getPubById(idVal).query(
-            {}, //args
-            function(data){
-                //additional success processing here
-            },
-            function(error)
-            {
-                //error handling here
-            }
-        );
-
-        var results = [];
-        results.push(myPubsList);
-
-        $scope.searchResults = results;
+    $scope.getAllPubs = function () {
+        ResearchPaperWebService.getAllPubs().get(function (results) {
+            $scope.searchResults = results;
+        }, function (err) {
+            $scope.searchResults = err.data;
+        });
     };
 
-    $scope.clearPubResults = function(){
-        $scope.searchResults = {};
-    }
+
+    $scope.getAPub = function (idVal) {
+        ResearchPaperWebService.getPubById(idVal).get(function (results) {
+            $scope.searchResults = results;
+        }, function (err) {
+            $scope.searchResults = err.data;
+        });
+    };
+
+    $scope.clearPubResults = function () {
+        $scope.searchResults = null;
+    };
 
 
-    $scope.getResultSize = function(){
-        return Object.values($scope.searchResults).length;
-    }
+    $scope.getResultSize = function () {
+        return $scope.searchResults ? $scope.searchResults.results.length : 0;
+    };
 
-    $scope.getResultList = function(){
-        var resultList = [];
-        if($scope.getResultSize() > 0)
-            resultList = Object.values($scope.searchResults)
+    $scope.getResultList = function () {
+        return $scope.searchResults ? $scope.searchResults.results : [];
+    };
 
-        return resultList;
-    }
-
-    $scope.isErrorObject = function( result){
-        if(result["error"] != null)
-            return true;
-        else
+    $scope.isErrorObject = function () {
+        if ($scope.searchResults != null) {
+            if($scope.searchResults.metadata.error){
+                $scope.errorObject = $scope.searchResults;
+                return true;
+            }else {
+                $scope.errorObject = null;
+                return false;
+            }
+        }
+        else {
+            $scope.errorObject = null;
             return false;
-    }
+        }
+    };
 
 }
-
-//PhoneDetailCtrl.$inject = ['$scope', '$routeParams', 'Phone'];
