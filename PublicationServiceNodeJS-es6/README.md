@@ -12,7 +12,9 @@ Enjoy!
 
 ## Usage
 
-To start the project type `node app.js`
+To start the project type `node app.js`.  Make sure that you run 'npm install' first to ensure
+that you have all of the required dependencies as this project uses node.js under the covers
+to provide the web services.
 
 The Angular app can be bootstrapped from `localhost:3000`
 
